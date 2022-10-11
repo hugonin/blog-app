@@ -32,9 +32,10 @@ function App() {
             <Route path="/article/:articleId" element={<Article />} />
           </Route>
         </Routes>
+        <Footer />
       </Router>
       <ToastContainer />
-      <Footer />
+     
     </>
   );
 }
