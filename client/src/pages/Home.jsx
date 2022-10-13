@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { reset } from "../features/auth/authSlice";
 import ArticleList from "../pages/ArticleList"
+import Illustration from "../assets/blog-post-illustration.svg"
 
 function Home() {
   const dispatch = useDispatch();
@@ -54,11 +55,11 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full">
+              <div>
                 <img
-                  className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-                  src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-                  alt="A small golden trophy"
+                  className=" w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+                  src={Illustration}
+                  alt="blog post illustration"
                 />
               </div>
             </div>

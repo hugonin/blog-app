@@ -41,11 +41,11 @@ function Navbar() {
             >
               {navbarOpen ? (
                 <MdClose
-                  style={{ width: "40px", height: "40px", color: "#3b82f6" }}
+                  style={{ width: "40px", height: "40px", color: "#4f46e5" }}
                 />
               ) : (
                 <FiMenu
-                  style={{ width: "40px", height: "40px", color: "#3b82f6" }}
+                  style={{ width: "40px", height: "40px", color: "#4f46e5" }}
                 />
               )}
             </button>
@@ -64,16 +64,16 @@ function Navbar() {
             >
               {user ? (
                 <>
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/new-article">Create new article</Link>
                   </li>
 
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/articles">View my articles</Link>
                   </li>
 
                   <li
-                    className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0"
+                    className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0"
                     onClick={onLogout}
                   >
                     <button onClick={onLogout}>Logout</button>
@@ -81,7 +81,7 @@ function Navbar() {
                 </>
               ) : (
                 <>
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/login">
                       {" "}
                       
@@ -89,7 +89,7 @@ function Navbar() {
                     </Link>
                   </li>
 
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/register">
                       REGISTER
                     </Link>
@@ -110,28 +110,28 @@ function Navbar() {
             <ul className="flex flex-col ml-auto text-md text-gray-500 font-semibold lg:flex-row">
               {user ? (
                 <>
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/new-article">Create new article</Link>
                   </li>
 
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/articles">View my articles</Link>
                   </li>
 
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <button onClick={onLogout}>Logout</button>
                   </li>
                 </>
               ) : (
                 <>
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/login">
                       {" "}
                       LOGIN
                     </Link>
                   </li>
 
-                  <li className="mx-6 w-mc hover:text-blue-700 mb-4 lg:mb-0">
+                  <li className="mx-6 w-mc hover:text-indigo-700 mb-4 lg:mb-0">
                     <Link to="/register">
                    REGISTER
                     </Link>

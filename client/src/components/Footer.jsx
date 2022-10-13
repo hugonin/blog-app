@@ -11,7 +11,7 @@ function Footer() {
             FAQs
           </a>
           <a
-            className="mx-4 hover:text-gray-600"
+            className="mt-6 text-xs hover:text-gray-400"
             href="/terms-and-conditions.html"
             rel="nofollow"
           >
