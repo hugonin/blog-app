@@ -19,17 +19,19 @@ The project is a full-stack MERN application. I'm using Express and Node to make
 - Express 4.18.2
 - Node JS
 - Mongoose 6.6.5
-- React 
+- React 18.2.0
+- JSON Web Token 8.5.1
+
 
 
 ## Features
 
 List of features:
 
-- Responsive design
-- EJS
-- Node & Express environment
-- Fetch API and Web API's
+- React-Redux
+- Axios
+- Express Async Handler
+- Responsive design with Tailwind CSS
 
 
 ## Status
